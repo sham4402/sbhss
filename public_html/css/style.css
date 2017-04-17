@@ -1,0 +1,91 @@
+.thumbnail > img{
+    /*background-size: cover;*/
+    width: 150px;
+    height: 150px;
+    background-position: center;
+
+    /*max-height: 50%;*/
+    margin: auto;
+}
+
+.row-acads > .col-md-3 >.thumbnail > img{
+    /*background-size: cover;*/
+    width: 2500px;
+    height: 250px;
+    background-position: center;
+
+    /*max-height: 50%;*/
+    margin: auto;
+}
+.header-inner{
+    
+font-size: 5px;
+background-color: #d6e9c6;
+}
+.img-inner >img{
+    
+    
+    max-height: 100px;
+    align-content: center;
+    
+}
+.thumbnail > h5, .thumbnail > .caption > h3
+{
+    text-align: center;
+    
+}
+
+.img-inner{
+    /*font-size: 50px;*/
+    
+}
+.mission-inner{
+    max-height: 5px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-height: 200px;    /* Set slide height here */
+  min-height: 200px;
+  width: 300px;
+  /*min-width: 100px;*/
+  margin: auto;
+
+}
+/*.carousel-inner{
+    
+    max-height: 1000px;
+    max-width: 2500px;
+}*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  /*margin: 20px 0;*/
+  margin: auto;
+}
